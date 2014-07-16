@@ -19,6 +19,11 @@ import java.awt.*;
  */
 public class Main extends Applet implements Runnable {
 
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
+
     private int speed;
 
     boolean isStoped = true;
