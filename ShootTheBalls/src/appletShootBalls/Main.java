@@ -75,6 +75,7 @@ public class Main extends Applet implements Runnable {
         th.start();
     }
 
+    @SuppressWarnings ("deprecation")
     public void stop() {
         th.stop();
 
